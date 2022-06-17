@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: gray;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 30% auto;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    color: whitesmoke ;
+    
+    
+}
+p{
+    font-size: small;
+}
+h2{
+    font-family:'Dancing Script', cursive;
+    margin: 15px auto;
+}
+
+.luxury{
+    background-color: rgb(39, 71, 71);
+    /* text-align: justify; */
+    padding: 2rem;
+    height: 25%;
+    /* align-items: center; */
+    /* align-content: inherit; */
+    
+}
+
+.sedan{ 
+    background-color: rgb(238, 141, 62);
+    padding: 2rem;
+    height: 25%;
+}
+
+.suv{
+    background-color:rgb(40, 57, 77);
+    padding: 2rem;
+    height: 25%;
+}
+
+button{
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    border-radius: 20px;
+    margin: 4rem auto;
+    width: 70%;
+    height: 30px;
+    border-color: white;
+   border-style: solid;
+   
+}
+img{
+    margin-top: 0;
+}
+
+button:hover{
+    background-color: white;
+    color: #AEDBCE;
+}
